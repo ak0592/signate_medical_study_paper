@@ -1,0 +1,12 @@
+geopandas
+japanize-matplotlib
+lightgbm
+matplotlib
+numpy<2.0.0,>1.16.0
+pandas
+plotly
+scipy
+shap
+shapely
+sklearn
+tqdm

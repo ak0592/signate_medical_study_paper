@@ -1,0 +1,11 @@
+services: # （１）
+  env:
+    image: signate
+    container_name: signate_medical_study_paper_container
+    volumes: # （４）
+      - ..:/root/work
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
